@@ -8,7 +8,7 @@ namespace day01_02
 {
     class Mathc
     {
-        int cnum = 1;
+        static int cnum = 1;
         public Mathc()
         {
             printline("객체 생성 횟수: ", cnum);
